@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Presidency 2016</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+</head>
+<style>
+    body {
+        background-color: #e8e8e8;
+    }
+    
+    h1 {
+        font-size: 2em;
+        color: #676767;
+        text-align: center;
+        position: relative;
+        top: 90%;
+        font-family: sans-serif;
+    }
+</style>
+
+<body>
+
+
+
+    <h1 id="name">Presidency 2016</h1>
+
+
+
+    <a-scene>
+        <!--        <a-sky color="yellow"></a-sky>-->
+
+        <a-entity camera look-controls="enabled: true" wasd-controls>
+            <a-entity position="0 0 -0.5" geometry="primitive: ring; radiusOuter: 0.002; radiusInner: 0.00" cursor="fuse: true; maxDistance: 500;timeout: 50" position="0 0 -0.5"></a-entity>
+        </a-entity>
+
+        <a-entity position="0 0 -50" rotation="0 -107.5">
+            <a-curvedimage id="clinton" src="images/2016/clinton-2016.jpg" radius="60" theta-length="10" height="14" rotation="0 0 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+
+            <a-curvedimage id="rocky" src="images/2016/OMalley.jpg" radius="60" theta-length="10" height="14" rotation="0 15 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="martin" src="images/2016/rockydelafuente.jpg" radius="60" theta-length="10" height="14" rotation="0 30 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="bernie" src="images/2016/berniesanders.jpg" radius="60" theta-length="10" height="14" rotation="0 45 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="jeb" src="images/2016/Jeb2016.jpg" radius="60" theta-length="10" height="14" rotation="0 60 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="carson" src="images/2016/bencarson.jpg" radius="60" theta-length="10" height="14" rotation="0 75 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="christie" src="images/2016/Christie2016.jpg" radius="60" theta-length="10" height="14" rotation="0 90 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="ted" src="images/2016/TedCruz.jpg" radius="60" theta-length="10" height="14" rotation="0 105 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="fiorina" src="images/2016/CFiorina.jpg" radius="60" theta-length="10" height="14" rotation="0 120 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="gilmore" src="images/2016/Jim-Gilmore.jpg" radius="60" theta-length="10" height="14" rotation="0 135 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="huckabee" src="images/2016/mikehuckabee16.jpg" radius="60" theta-length="10" height="14" rotation="0 150 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="kasich" src="images/2016/Kasich16.jpg" radius="60" theta-length="10" height="14" rotation="0 165 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+            <a-curvedimage id="rand" src="images/2016/RandPaul.jpg" radius="60" theta-length="10" height="14" rotation="0 180 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="rubio" src="images/2016/MarcoRubio.jpg" radius="60" theta-length="10" height="14" rotation="0 195 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="santorum" src="images/2016/santorum%20(1).jpg" radius="60" theta-length="10" height="14" rotation="0 210 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+            <a-curvedimage id="trump" src="images/2016/trump.jpg" radius="60" theta-length="10" height="14" rotation="0 225 0" scale="0.8 0.8 0.8">
+                <a-mouseenter opacity="0.5"></a-mouseenter>
+                <a-mouseleave opacity="1"></a-mouseleave>
+            </a-curvedimage>
+
+
+
+        </a-entity>
+
+
+
+
+
+        <script>
+            var clinton = document.querySelector('#clinton');
+            var rocky = document.querySelector('#rocky');
+            var martin = document.querySelector('#martin');
+            var bernie = document.querySelector('#bernie');
+            var jeb = document.querySelector('#jeb');
+            var carson = document.querySelector('#carson');
+            var christie = document.querySelector('#christie');
+            var ted = document.querySelector('#ted');
+            var fiorina = document.querySelector('#fiorina');
+            var gilmore = document.querySelector('#gilmore');
+            var huckabee = document.querySelector('#huckabee');
+            var kasich = document.querySelector('#kasich');
+            var rand = document.querySelector('#rand');
+            var rubio = document.querySelector('#rubio');
+            var santorum = document.querySelector('#santorum');
+            var trump = document.querySelector('#trump');
+
+
+
+            clinton.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Former US Secretary of State Hillary Clinton (New York)";
+
+            });
+
+            rocky.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Businessman Rocky De La Fuente (California)";
+
+            });
+
+            martin.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Former Governor Martin O'Malley (Maryland)";
+
+            });
+
+            bernie.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "US Senator Bernie Sanders (Vermont)";
+
+            });
+            jeb.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Former Governor Jeb Bush (Florida)";
+
+            });
+            carson.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Dr. Ben Carson (Florida)";
+
+            });
+            christie.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Governor Chris Christie (New Jersey)";
+
+            });
+            ted.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "US Senator Ted Cruz (Texas)";
+
+            });
+            fiorina.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Businesswoman Carly Fiorina (Virginia)";
+
+            });
+            gilmore.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Former Governor Jim Gilmore (Virginia)";
+
+            });
+
+            huckabee.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Former Arkansas Governor Mike Huckabee (Florida)";
+
+            });
+
+            kasich.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Governor John Kasich (Ohio)";
+
+            });
+            rand.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "US Senator Rand Paul (Kentucky)";
+
+            });
+            rubio.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "US Senator Marco Rubio (Florida)";
+
+            });
+            santorum.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Former US Senator Rick Santorum (Pennsylvania)";
+
+            });
+            trump.addEventListener('click', function () {
+                document.getElementById("name").innerHTML = "Businessman Donald Trump (New York)";
+
+            });
+        </script>
+
+
+    </a-scene>
+</body>
+
+</html>

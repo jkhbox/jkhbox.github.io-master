@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 140%;
+    font-family: sans-serif;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaeaea;
+    color: #525252;
+}
+
+header {
+    background-color: black;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+article {
+    padding: 1em;
+    box-sizing: border-box;
+    /*    background-color: grey;*/
+    height: 100%;
+}
+
+section {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin: 0 auto;
+    min-height: 20em;
+}
+
+#intro {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+}
+
+header nav a {
+    text-decoration: none;
+    display: block;
+    padding-bottom: .25em;
+    padding-top: .25em;
+    color: white;
+    border-bottom: solid 1px grey;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+p {
+    max-width: 560px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+iframe {
+    max-width: 100%;
+    padding-top: 1em;
+}
+
+.col {}
+
+.logo {
+    width: 3em;
+}
+
+a .logo {
+    border-bottom: none;
+}
+
+figure {
+    padding-top: 1em;
+}
+
+figure img {
+    padding-bottom: .2em;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 1em;
+}
+
+#prototype img {}
+
+@media screen and (min-width: 45em) {
+    header,
+    article {
+        width: 20%;
+        float: left;
+        display: inline-block;
+    }
+    article {
+        width: 80%;
+        margin-left: 20%;
+    }
+    header {
+        height: 100%;
+        position: fixed;
+    }
+    section {
+        clear: both;
+    }
+    .max-width-img {
+        max-width: 20em;
+    }
+    .col {
+        display: inline-block;
+        width: 20%;
+        min-height: 10em;
+        float: left;
+    }
+    #prototype img {
+        max-width: 560px;
+    }
+}

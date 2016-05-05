@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>A-frame Experiment</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-sky color="yellow"></a-sky>
+
+        <a-entity camera look-controls="enabled: true" wasd-controls>
+            <a-entity position="0 0 -0.5" geometry="primitive: ring; radiusOuter: 0.010; radiusInner: 0.00" material="color: #4CC3D9; shader: flat; transparent: true; opacity: 0.5" cursor="fuse: true; maxDistance: 100; timeout: 1000"></a-entity>
+        </a-entity>
+
+
+        <a-image id="duck" height="12" width="12" src="images/advert/flockto-icon.png" position="10 0 -30" rotation="0 -30 0" opacity="0.5" visible="true">
+            <a-mouseenter opacity="0.5"></a-mouseenter>
+            <a-mouseleave opacity="1"></a-mouseleave>
+        </a-image>
+
+
+        <a-image id="logo" height="12" width="12" src="images/advert/logo.png" position="10 -20 -30" rotation="0 -30 0" opacity="0.5" visible="true">
+            <a-mouseenter opacity="1"></a-mouseenter>
+            <a-mouseleave opacity="0.5"></a-mouseleave>
+        </a-image>
+
+
+        <a-image id="green" height="12" width="12" src="images/advert/green-29.png" position="10 -20 -3" rotation="0 -30 0" opacity="0.5" visible="true">
+            <a-mouseenter opacity="1"></a-mouseenter>
+            <a-mouseleave opacity="0.5"></a-mouseleave>
+        </a-image>
+
+
+
+        <script>
+            var duck = document.querySelector('#duck');
+            var green = document.querySelector('#green');
+            var logo = document.querySelector('#logo');
+
+            duck.addEventListener('click', function () {
+                window.alert("you clicked a duck");
+
+            });
+
+            logo.addEventListener('click', function () {
+                window.alert("you found a logo");
+
+            });
+
+            green.addEventListener('click', function () {
+                window.alert("you found a green thing");
+
+            });
+        </script>
+
+
+    </a-scene>
+</body>
+
+</html>
